@@ -2,7 +2,7 @@
 version: "3"
 services:
   gpt_academic_nolocalllms:
-    image: claude-academic:latest
+    image: ghcr.io/hjnnjh/claude-academic:publish
     environment:
       # 请查阅 `config.py` 以查看所有的配置信息
       # 请配置你的ANTHROPIC_API_KEY
